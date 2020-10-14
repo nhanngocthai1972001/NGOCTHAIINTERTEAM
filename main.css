@@ -1,0 +1,534 @@
+
+/* Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/*Nav bar*/
+#Path1
+{
+    display: flex;
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 80px;
+background: #3F51B5 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 10px #000000B5;
+opacity: 1;
+
+}
+.icon{
+    display:flex;
+    
+    margin-left: 50px;
+    margin-top:20px;
+width: 132px;
+height: 40px;
+opacity: 1;
+}
+#logo-icon
+{
+display: inline-block;
+width: 40px;
+height: 40px;
+background: transparent url('/image/logo\ icon\ \(3\).svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#Material
+{
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 82px;
+height: 29px;
+text-align: center;
+font: normal normal 900 22px/34px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.menu
+{
+    display: flex;
+    margin-top:27px;
+    margin-left:40px;
+    width: 294px;
+height: 26px;
+opacity: 1;
+}
+#Compoments
+{
+    width: 114px;
+height: 26px;
+text-align: center;
+font-weight: 500px;
+font-size: 20px;
+line-height:34px;
+font-family:Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#CDK
+{
+   
+    margin-left:40px;
+    width: 38px;
+height: 26px;
+text-align: center;
+font-weight: 500px;
+font-size: 20px;
+line-height:34px;
+font-family:Roboto; 
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#Guides
+{
+    margin-left: 40px;
+ width: 62px;
+height: 26px;
+text-align: center;
+font-weight: 500px;
+font-size: 20px;
+line-height:34px;
+font-family:Roboto; 
+
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.github
+{
+
+    display:flex;
+    margin-top: 20px;
+    margin-left:1242px;
+        width: 112px;
+    height: 40px;
+    opacity: 1;
+}
+
+#icon-github
+{
+    display: inline-block;
+    width: 40px;
+height: 40px;
+background: transparent url('/image/icon\ github\ \(2\).svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#GitHub 
+{
+    margin-top: 7px;
+    margin-left:10px;
+    width: 62px;
+height: 26px;
+text-align: center;
+font: normal normal 900 20px/34px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.path2{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+height: 320px;
+background: transparent url('/image/Path\ 2\ \(3\).svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.Group3{
+
+    margin-top:60px;
+    margin-left:721px;
+    width: 478px;
+    height: 193px;
+    opacity: 1;
+}
+#Angular-Material
+{ display: flex;
+    align-items: center;
+    width: 478px;
+    height: 84px;
+    text-align: center;
+    font: normal normal bold 64px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+#M{
+    
+ margin-left:41px;
+ width: 396px;
+height: 29px;
+text-align: center;
+font-size: 22px;
+line-height: 32px;
+font-family:Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.Path12{
+    
+    
+    top: 293px;
+    left: 905px;
+  
+    
+    margin-left: 184px;
+    margin-top: 40px;
+    width: 110px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+    border-radius: 8px;
+   
+}
+
+#Button
+{
+   
+    top: 302px;
+    left: 919px;
+    margin-top: 10px;
+    width: 82px;
+    height: 21px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #000000DE;
+    opacity: 1;
+}
+.Alogo{
+
+ 
+    margin-top: 60px;
+    
+    display: inline-block;
+    top: 140px;
+    left: 1162px;
+    width: 615px;
+    height: 338px;
+    background: transparent url('/image/Mask\ Group\ 1.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.6;
+}
+.Path7{
+    margin-top:340px;
+    margin-left:140px;
+    top: 440px;
+    left: 140px;
+    width: 1640px;
+    height: 1220px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    opacity: 1;
+
+}
+.Group7
+{
+    display:flex;
+    width: 1640px;
+    height: 289px;
+    opacity: 1;
+}
+.Group4
+{
+    margin-top:50px;
+    margin-left:40px;
+    width: 400px;
+    height: 209px;
+    opacity: 1;
+}
+#H{
+   
+    width: 400px;
+height: 34px;
+text-align: left;
+font-size: 24px;
+font: normal normal medium 24px/32px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+#I
+{
+    margin-top: 18px;
+    width: 400px;
+height: 84px;
+text-align: left;
+font: normal normal normal 18px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+#S
+{
+    margin-top: 20px;
+    width: 400px;
+height: 53px;
+text-align: left;
+font: normal normal normal 18px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+hr{
+    margin-top: 35.5px;
+    margin-bottom:50.5px;
+    margin-left:40.5px;
+    width: 1560px;
+height: 0px;
+border: 1px solid #70707080;
+opacity: 1;
+}
+#FC{
+    display: inline;
+    margin-top:116px;
+    margin-left:41px;
+    
+    top: 815px;
+left: 181px;
+width: 275px;
+height: 37px;
+text-align: left;
+font-size: 28px;
+font: normal normal medium 28px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+.Group8{
+    margin-top:50px;
+    margin-left:41px;
+    display: flex;
+    width: 1560px;
+height: 249px;
+opacity: 1;
+}
+.date{
+    margin-left: 150px;
+    width: 360px;
+height: 249px;
+opacity: 1;
+}
+#Da{
+    width: 360px;
+height: 200px;
+opacity: 1;
+}
+#D{
+    margin-top:20px;
+    margin-left:128px;
+    width: 105px;
+height: 29px;
+text-align: left;
+font: normal normal normal 22px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+.date1{
+    margin-left:89px;
+    width: 360px;
+height: 249px;
+opacity: 1;
+}
+#Bu{
+    width: 360px;
+height: 200px;
+opacity: 1;
+}
+#B{
+    margin-top:20px;
+    margin-left:148px;
+    width: 65px;
+height: 29px;
+text-align: left;
+font: normal normal normal 22px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+.date2{
+    margin-left:91px;
+    width: 360px;
+height: 249px;
+opacity: 1;
+}
+#Sli{
+    width: 360px;
+height: 200px;
+opacity: 1;
+}
+#Sl{
+    margin-top:20px;
+    margin-left:153px;
+    width: 55px;
+    height: 29px;
+    text-align: left;
+    font: normal normal normal 22px/28px Roboto;
+    letter-spacing: 0px;
+    color: #0000008A;
+    opacity: 1;
+}
+#g{
+    
+ 
+   
+    margin-top:50.5px;
+    margin-left: 41px;
+    width: 87px;
+height: 37px;
+text-align: left;
+font-size: 28px;
+font: normal normal medium 28px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+}
+
+.Group12
+{
+    display:inline-block;
+    position:absolute;;
+   
+    left: 300px ;    
+   
+
+
+    width: 360px;
+height: 270px;
+opacity: 1;
+box-shadow: 0px 2px 10px;
+}
+
+
+.Group13
+{
+position:absolute;
+    display: inline-block;
+ 
+    left: 741px;
+    width: 360px;
+height: 270px;
+opacity: 1;
+box-shadow: 0px 2px 10px;
+
+}
+
+.group16{	
+    position:absolute;
+    top: 1303px;
+    left: 181px;
+    width: 1560px;
+    height: 270px;
+    opacity: 1;
+    display:flex;
+    flex-wrap:wrap;}
+
+        
+         
+    .chil1-bottom6{
+        
+        left:160px;
+        opacity:1;
+        margin:0;
+        width: 360px;
+height: 270px;
+text-align: center;
+font: normal normal medium 28px/34px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position:absolute;
+box-shadow:0px 3px 6px #00000029;
+
+    }
+    .chil2-bottom6{
+        
+        position:absolute;
+        left:601px;
+        opacity:1;
+        width: 360px;
+height: 270px;
+text-align: center;
+font: normal normal medium 28px/34px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position:absolute;
+box-shadow:0px 3px 6px #00000029;
+
+    }
+    .chil3-bottom6{
+        position:absolute;
+        left:1040px;
+        opacity:1;
+        width: 360px;
+height: 270px;
+text-align: center;
+font: normal normal medium 28px/34px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position:absolute;
+box-shadow:0px 5px 5px #00000029;
+
+    }
+    
+    #bottom6-button{
+        position:absolute;
+        left:1460px;
+        top:100px;
+    }
+    .Group12-1{
+        margin-top:30px;
+        margin-left:30px;
+        width: 300px;
+height: 73px;
+text-align: center;
+font-size: 28px;
+font: normal normal medium 28px/34px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+    }
+    #R7{
+        margin-top:21px;
+        margin-left:110px;
+        width: 140px;
+height: 5px;
+background: #FF4081 0% 0% no-repeat padding-box;
+opacity: 1;
+    }
+   #R8
+    {
+        margin-top: 27px;
+        margin-left:30px;
+        width: 300px;
+height: 84px;
+text-align: center;
+font: normal normal normal 18px/28px Roboto;
+letter-spacing: 0px;
+color: #0000008A;
+opacity: 1;
+    }
