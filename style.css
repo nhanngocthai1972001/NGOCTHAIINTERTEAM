@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    
+    font-family: "Roboto", sans-serif;
+    background:#FFF;
+
+    
+    
+}
+
+.image-wrapper img {
+   max-width: 100%;
+   
+    width:auto;
+   
+    
+    
+    }
+    .navbar {
+     
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background:#fff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px rgb(248, 246, 246);
+        padding: 10px 20px;
+        color: #fff;
+        position: relative;
+        overflow-x: auto;
+        z-index: 999;
+        transition: 0.3s ease-in-out;
+      }
+      
+      .fs-stxt
+      
+      {
+        
+        text-align: center;
+      }
+     
+      
+    
+      .navbar .image-wrapper__brand {
+        display: flex;
+       
+        margin-inline-end: 10px;
+        width: 30px;
+        height: 30px;
+       
+      }
+      .left-navbar {
+        
+          margin: auto;
+        text-align: center;
+      }
+      .brand{
+        margin: auto;
+       
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .brand-name{
+        margin-top: 20px;
+        margin-bottom:20px;
+      }
+      
+      .navbar .brand .brand-name {
+        font-weight: bold;
+        max-width: 0;
+        overflow: hidden;
+      
+      }
+      .navbar .left-navbar.brand-name {
+          
+        display: flex;
+        align-items: center;
+        margin-inline-start: 0;
+        width: 100%;
+        overflow-x: auto;
+        
+      }
+      .navbar .left-navbar .fs-stxt.fs-sresult {
+        padding: 10px 20px;
+        
+       
+     
+      }
+      .navbar .left-navbar,
+      .navbar .right-navbar {
+        display: flex;
+        
+      }
+      @media screen and (min-width: 425px) {
+        .navbar .left-navbar .brand-name {
+          margin-inline-start: 10px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .navbar {
+            
+            padding: 20px 50px;
+        }
+        .navbar .brand .brand-name {
+            max-width: 20rem;
+        }
+        .navbar .brand .image-wrapper__brand {
+          margin-inline-end: 10px;
+          width: 100px;
+          height: 50px;
+        }
+      }
+    
+     
+     
+      input[type="text"] {
+        width: 800px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 5px;
+        outline:none;
+        height: 30px;
+        
+        transition:0.6s ease-in-out;
+      }
+      input[type="text"]:focus{
+        width:900px; 
+        background-color:lightpink;
+    }
+    .brand-name1
+    {
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+        
+       margin-top: 40px;
+       margin-bottom:40px;
+        
+        color:dodgerblue;
+        text-align: center;
+    }
+    .top-navbar
+    {
+      
+      display: flex;
+      flex-direction:column;
+      text-align: center;
+      justify-self: start;
+   
+    }
+    .container{
+
+      display: flex;
+      
+      flex-direction:row;
+      margin-bottom:60px;
+
+    }
+    .item1
+    {
+      flex-basis: 50px;
+      flex-grow: 1;
+    }
+    .item2{
+      flex-basis:50px;
+      flex-grow: 1;
+    }
+    .item3{
+      flex-basis:50px;
+      flex-grow: 1;
+    }
+
+    .item4{
+      flex-basis: 50px;
+      flex-grow: 1;
+    }
+    .section{
+
+      display: flex;
+    
+   
+      flex-direction:row;
+
+    }
+    .item1
+    {
+      flex-basis: 50px;
+      flex-grow: 1;
+    }
+    .item2{
+      flex-basis:50px;
+      flex-grow: 1;
+    }
+    .item3{
+      flex-basis:50px;
+      flex-grow: 1;
+    }
+
+    .item4{
+      flex-basis: 50px;
+      flex-grow: 1;
+    }
+    .owl-lazy{
+     width:200px;
+     height: 200px;
+
+    }
+    a:link {
+      color: green;
+    background-color: transparent;
+    text-decoration: none;
+    }
