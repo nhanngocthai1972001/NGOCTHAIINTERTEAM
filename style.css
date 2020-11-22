@@ -17,7 +17,7 @@ body {
 .image-wrapper img {
    max-width: 100%;
    
-    width:auto;
+   width:auto;
    
     
     
@@ -41,8 +41,9 @@ body {
       .fs-stxt
       
       {
-        
+    
         text-align: center;
+       
       }
      
       
@@ -56,7 +57,6 @@ body {
        
       }
       .left-navbar {
-        
           margin: auto;
         text-align: center;
       }
@@ -100,6 +100,7 @@ body {
         display: flex;
         
       }
+    
       @media screen and (min-width: 425px) {
         .navbar .left-navbar .brand-name {
           margin-inline-start: 10px;
@@ -123,12 +124,12 @@ body {
      
      
       input[type="text"] {
-        width: 800px;
+        width: 650px;
         box-sizing: border-box;
         border: 1px solid black;
         border-radius: 5px;
         outline:none;
-        height: 30px;
+        height: 40px;
         
         transition:0.6s ease-in-out;
       }
@@ -218,3 +219,4 @@ body {
     background-color: transparent;
     text-decoration: none;
     }
+    
